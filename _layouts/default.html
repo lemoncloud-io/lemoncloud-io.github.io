@@ -9,12 +9,12 @@
     {% if page.description %}
       {{ page.description }}
     {% else %}
-      레몬클라우드의의 경험과 배움을 공유합니다.
+      레몬클라우드의 경험을 공유합니다.
     {% endif %}
   {% endcapture %}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>LemonCloud 기술 블로그{% if page.title %} | {{ page.title }}{% endif %}</title>
+  <title>레몬클라우드 기술 블로그{% if page.title %} | {{ page.title }}{% endif %}</title>
   <meta name="description" content="{{ page_description | strip }}">
   <link rel="canonical" href="{{ site.home_url}}{{ page.url }}">
 
